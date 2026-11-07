@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1270 520" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0e2336"/><stop offset="1" stop-color="#213f52"/></linearGradient>
+<linearGradient id="ridge" x2=".25" y2="1"><stop stop-color="#527b8c"/><stop offset="1" stop-color="#1b394d"/></linearGradient>
+<linearGradient id="snow" x2=".3" y2="1"><stop stop-color="#b3d0da"/><stop offset="1" stop-color="#5d889b"/></linearGradient>
+<pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#6ca1b8" stroke-opacity=".14"/></pattern>
+<radialGradient id="light"><stop stop-color="#7ec9c9" stop-opacity=".18"/><stop offset="1" stop-color="#7ec9c9" stop-opacity="0"/></radialGradient>
+</defs>
+<path fill="url(#bg)" d="M0 0h1270v520H0z"/><ellipse cx="995" cy="243" rx="440" ry="330" fill="url(#light)"/>
+<path d="m448 400 135-144 100-43 77-97 45 29 82-81 95 90 56-46 73 82 96-67 63 77v320H448z" fill="#203f55"/>
+<path d="m460 468 128-145 64-32 107-175 36 78 29-23 62-107 53 113 43-22 58-47 43 96 28-14 95-67 64 105v292H460z" fill="url(#ridge)"/>
+<path d="m669 255 90-139 37 78-26-9-12 21-19-7zm132-54 85-137 53 113-32-20-18 19-24-43zm180-46 59-47 43 96-25-14-27 4-15-35zm129 36 96-68 64 105-53-28-18-35-17 31z" fill="url(#snow)" opacity=".85"/>
+<path d="m468 491 106-74 121-46 85-2 93-52 83 27 94-35 116 47 104-24v188H468z" fill="#132d42" opacity=".86"/>
+<path fill="url(#grid)" d="M530 0h740v520H530z"/>
+<g fill="none" stroke="#89bed1" opacity=".26">
+<path d="M661 410q112-65 201-56t178-19 230 21"/><path d="M639 427q140-65 229-58t168-20 234 22"/><path d="M621 444q142-65 244-58t171-20 234 22"/><path d="M607 461q150-60 256-58t174-19 233 20"/><path d="M590 478q163-60 274-58t178-16 228 18"/>
+<circle cx="1042" cy="227" r="108"/><circle cx="1042" cy="227" r="77"/><path d="M1042 101v252M916 227h252"/>
+</g>
+<path d="M698 380 827 318 936 336 1042 227 1172 260" fill="none" stroke="#91e8de" stroke-width="2.5" stroke-dasharray="8 7"/>
+<g fill="#9ceddf"><circle cx="698" cy="380" r="4"/><circle cx="827" cy="318" r="4"/><circle cx="936" cy="336" r="4"/><circle cx="1172" cy="260" r="4"/></g>
+<circle cx="1042" cy="227" r="16" fill="#162e3d" stroke="#c1f0e6" stroke-width="2"/><path d="m1034 231 10-13 7 16-8-3z" fill="#a3ecde"/>
+</svg>

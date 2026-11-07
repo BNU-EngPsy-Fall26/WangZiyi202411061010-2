@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="注意与知觉实验室：视觉搜索、图形比例判断与地图定向的三个交互实验。">
+<title>注意与知觉实验室</title>
+<link rel="icon" href="assets/img/mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a>
+<header class="top">
+  <div class="top-inner">
+    <button class="brand" type="button" data-view="home" aria-label="注意与知觉实验室首页">
+      <img src="assets/img/mark.svg" width="39" height="39" alt="">
+      <span><strong>注意与知觉实验室</strong></span>
+    </button>
+    <nav aria-label="主导航">
+      <button type="button" data-view="home" aria-current="page">实验</button>
+      <button type="button" data-view="concept">概念演示</button>
+      <button type="button" data-view="results">数据结果</button>
+    </nav>
+    <span class="top-tag"><i></i> 工程心理学 W6–W8</span>
+  </div>
+</header>
+<main id="main">
+  <section id="homeView" class="view shell">
+    <div class="hero">
+      <img class="hero-art" src="assets/img/terrain.svg" alt="">
+      <div class="hero-content">
+        <h1>注意与知觉实验室</h1>
+        <p class="hero-copy">视觉搜索 · 比例估计 · 地图定向</p>
+        <div class="actions">
+          <button class="button mint" id="formalStart" type="button">开始实验 <span aria-hidden="true">↗</span></button>
+        </div>
+        <div class="hero-meta"><span><b>3</b> 个经典实验</span><span><b>340</b> 次正式试次</span><span><b>可选</b> 眼动</span></div>
+      </div>
+    </div>
+    <section class="home-modules" aria-labelledby="modulesTitle">
+      <div class="section-heading"><h2 id="modulesTitle">实验项目</h2></div>
+      <div id="missionCards" class="module-grid"></div>
+    </section>
+    <section class="workflow">
+      <div><h2>参与流程</h2></div>
+      <ol><li><span>01</span>同意与编号</li><li><span>02</span>阅读与练习</li><li><span>03</span>完成判断</li><li><span>04</span>查看结果</li></ol>
+      <p>正式实验建议使用电脑与键盘。摄像头眼动需要单独同意，可随时跳过。</p>
+    </section>
+  </section>
+  <section id="conceptView" class="view shell" hidden>
+    <div class="page-head"><h1>概念演示</h1></div>
+    <div id="conceptTabs" class="tabs" role="group" aria-label="演示选择"></div>
+    <div id="conceptContent" class="concept-body"></div>
+  </section>
+  <section id="resultsView" class="view shell" hidden>
+    <div class="page-head"><h1>数据结果</h1></div>
+    <div class="result-source tabs" role="group" aria-label="结果来源">
+      <button type="button" data-source="personal" aria-pressed="true">本次个人</button>
+      <button type="button" data-source="group" aria-pressed="false">正式数据汇总</button>
+    </div>
+    <div id="resultTabs" class="tabs subtabs" role="group" aria-label="实验选择"></div>
+    <div id="resultTools" class="result-tools" hidden>
+      <button class="button outline compact" id="loadCourse" type="button">读取项目数据</button>
+      <label class="button outline compact file-label">导入 CSV / JSON<input type="file" id="importData" accept=".csv,.json,text/csv,application/json"></label>
+      <span id="dataStatus" role="status"></span>
+    </div>
+    <div id="resultContent"></div>
+  </section>
+  <section id="cameraView" class="view shell narrow" hidden>
+    <div class="page-head"><h1>校准眼动</h1><p id="cameraStatus" role="status">正在初始化摄像头。</p></div>
+    <div id="calField" class="cal-field" aria-label="校准区域"><button id="calPoint" type="button" aria-label="点击校准点" hidden><span></span></button></div>
+    <div class="actions camera-actions">
+      <button class="button primary" id="cameraGo" type="button" hidden>进入实验</button>
+      <button class="button outline" id="cameraRetry" type="button" hidden>重新校准</button>
+      <button class="button outline" id="cameraSkip" type="button">跳过眼动</button>
+    </div>
+  </section>
+  <section id="taskView" class="view shell narrow" hidden>
+    <div class="task-top">
+      <div><p id="taskEyebrow" class="eyebrow accent"></p><h1 id="taskTitle"></h1></div>
+      <button class="button outline compact" id="quitTask" type="button">退出实验</button>
+    </div>
+    <section id="taskIntro" class="panel intro">
+      <p id="introLabel" class="eyebrow accent"></p><h2 id="introTitle"></h2>
+      <div id="introText"></div>
+      <div id="introSamples" class="instruction-samples"></div>
+      <button class="button primary" id="introNext" type="button"></button>
+    </section>
+    <section id="taskRun" hidden>
+      <div class="instrument">
+        <div class="instrument-head"><span id="trialCount"></span><span id="gazeIndicator"></span><span id="trialBlock"></span></div>
+        <canvas id="stimulus" width="900" height="520" aria-label="正式实验刺激"></canvas>
+        <div class="instrument-foot"><span id="trialPrompt"></span><span id="trialStatus" role="status"></span></div>
+      </div>
+      <progress id="trialProgress" value="0" max="1" aria-label="本项进度"></progress>
+      <div id="responseButtons" class="response-row"></div>
+      <form id="ratioForm" class="response-row ratio-response" hidden>
+        <label for="ratioAnswer">B 是 A 的</label>
+        <input id="ratioAnswer" type="text" inputmode="numeric" autocomplete="off" maxlength="3" aria-label="输入 0 到 100 的百分比">
+        <span>%</span><button class="button outline" type="submit">确认 <kbd>Enter</kbd></button>
+      </form>
+      <p class="muted task-note">作答时保持页面在前台。练习有反馈，正式阶段只记录作答。</p>
+    </section>
+  </section>
+</main>
+<footer><div class="shell"><span>注意与知觉实验室</span><span>工程心理学 W6–W8</span></div></footer>
+<dialog id="setupDialog" class="setup">
+  <form id="setupForm">
+    <div class="dialog-head"><h2 id="setupTitle">开始实验</h2><button id="closeSetup" class="icon-btn" type="button" aria-label="关闭">×</button></div>
+    <p id="setupScope"></p>
+    <label for="participant" id="participantLabel">匿名编号</label>
+    <input id="participant" type="text" maxlength="5" placeholder="例如 P01" autocomplete="off" spellcheck="false">
+    <p class="muted" id="participantHelp">请使用分配的 P 开头编号。</p>
+    <div id="consentDetail" class="consent-detail"></div>
+    <label class="check"><input id="consent" type="checkbox" required><span>我了解数据用途，自愿参与，可随时退出。</span></label>
+    <label class="check"><input id="eyeConsent" type="checkbox"><span>我另行同意启用摄像头估计注视位置（可选）。</span></label>
+    <p class="muted" id="cameraHelp"></p>
+    <p id="setupMessage" class="message" role="status"></p>
+    <div class="actions"><button class="button primary" id="startSession" type="submit">进入实验</button><button class="button outline" id="cancelSetup" type="button">取消</button></div>
+  </form>
+</dialog>
+<dialog id="leaveDialog" class="setup mini">
+  <form method="dialog">
+    <h2>退出当前实验？</h2><p>已完成的实验可在结果页查看，未完成的作答将丢弃。</p>
+    <div class="actions"><button class="button outline" value="keep">继续实验</button><button class="button primary" value="leave">结束</button></div>
+  </form>
+</dialog>
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/protocol.js" defer></script>
+<script src="assets/js/draw.js" defer></script>
+<script src="assets/js/analysis.js" defer></script>
+<script src="assets/js/data.js" defer></script>
+<script src="assets/js/gaze.js" defer></script>
+<script src="assets/js/report.js" defer></script>
+<script src="assets/js/app.js" defer></script>
+</body>
+</html>
