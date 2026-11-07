@@ -1,3 +1,4 @@
+实验网址：https://bnu-engpsy-fall26.github.io/WangZiyi202411061010-2/
 # 注意与知觉实验室
 
 工程心理学作业二：视觉搜索、比例估计与地图定向。
