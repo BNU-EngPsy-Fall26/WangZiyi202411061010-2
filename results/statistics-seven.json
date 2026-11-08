@@ -1,0 +1,3964 @@
+{
+  "fetchedAt": "2026-11-08T10:03:39.074Z",
+  "sources": [
+    "https://attention-lab-production.up.railway.app/api/hw2/data?project=8QDRRP&experiment=search",
+    "https://attention-lab-production.up.railway.app/api/hw2/data?project=8QDRRP&experiment=ratio",
+    "https://attention-lab-production.up.railway.app/api/hw2/data?project=8QDRRP&experiment=map"
+  ],
+  "participants": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07"
+  ],
+  "experiments": {
+    "search": {
+      "people": {
+        "P01": {
+          "cells": {
+            "feature_0_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 528.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_8_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 532.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_24_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 507.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_24_present": {
+              "n": 10,
+              "rtN": 8,
+              "rt": 517.0,
+              "acc": 0.8,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_8_absent": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 807.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_8_present": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 560.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_24_absent": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 609.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_24_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 719.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 738.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_8_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 770.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_24_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1340.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_24_present": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 1066.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 827.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_8_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 756.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_24_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1452.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_24_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 957.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            }
+          },
+          "effects": {
+            "classic_present": 19.4375,
+            "classic_absent": 39.0,
+            "cost_feature_8": 153.0,
+            "cost_feature_24": 152.0,
+            "cost_mixed_8": 37.5,
+            "cost_mixed_24": 1.75,
+            "load_search": -132.875,
+            "load_size": -18.375
+          },
+          "overall": {
+            "n": 160,
+            "rtN": 154,
+            "rt": 721.5,
+            "acc": 0.9625,
+            "err": null,
+            "bias": null,
+            "timeout": 0,
+            "exposure": null
+          },
+          "eye": {
+            "trials": 0,
+            "samples": 0,
+            "calibration": []
+          }
+        },
+        "P02": {
+          "cells": {
+            "feature_0_8_absent": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 421.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_8_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 440.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_24_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 420.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_24_present": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 436.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 509.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_8_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 532.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_24_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 469.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_24_present": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 511.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 632.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_8_present": {
+              "n": 10,
+              "rtN": 8,
+              "rt": 654.0,
+              "acc": 0.8,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_24_absent": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 706.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_24_present": {
+              "n": 10,
+              "rtN": 5,
+              "rt": 938.0,
+              "acc": 0.5,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 570.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_8_present": {
+              "n": 10,
+              "rtN": 6,
+              "rt": 668.0,
+              "acc": 0.6,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_24_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 689.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_24_present": {
+              "n": 10,
+              "rtN": 4,
+              "rt": 621.0,
+              "acc": 0.4,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            }
+          },
+          "effects": {
+            "classic_present": 18.03125,
+            "classic_absent": 4.625,
+            "cost_feature_8": 90.0,
+            "cost_feature_24": 62.0,
+            "cost_mixed_8": -24.25,
+            "cost_mixed_24": -166.75,
+            "load_search": -171.5,
+            "load_size": -85.25
+          },
+          "overall": {
+            "n": 160,
+            "rtN": 139,
+            "rt": 533.0,
+            "acc": 0.86875,
+            "err": null,
+            "bias": null,
+            "timeout": 0,
+            "exposure": null
+          },
+          "eye": {
+            "trials": 160,
+            "samples": 996,
+            "calibration": [
+              112
+            ]
+          }
+        },
+        "P03": {
+          "cells": {
+            "feature_0_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 559.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_8_present": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 532.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_24_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 575.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_24_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 579.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 632.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_8_present": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 572.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_24_absent": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 651.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_24_present": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 542.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 735.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_8_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 698.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_24_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1439.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_24_present": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 767.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 684.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_8_present": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 763.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_24_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1481.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_24_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1009.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            }
+          },
+          "effects": {
+            "classic_present": 1.34375,
+            "classic_absent": 43.03125,
+            "cost_feature_8": 56.5,
+            "cost_feature_24": 19.5,
+            "cost_mixed_8": 7.0,
+            "cost_mixed_24": 141.75,
+            "load_search": 36.375,
+            "load_size": 48.875
+          },
+          "overall": {
+            "n": 160,
+            "rtN": 154,
+            "rt": 661.0,
+            "acc": 0.9625,
+            "err": null,
+            "bias": null,
+            "timeout": 0,
+            "exposure": null
+          },
+          "eye": {
+            "trials": 160,
+            "samples": 1317,
+            "calibration": [
+              100
+            ]
+          }
+        },
+        "P04": {
+          "cells": {
+            "feature_0_8_absent": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 707.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_8_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 598.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_24_absent": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 682.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_24_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 591.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 726.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_8_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 735.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_24_absent": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 633.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_24_present": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 621.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 935.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_8_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 858.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_24_absent": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 1469.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_24_present": {
+              "n": 10,
+              "rtN": 6,
+              "rt": 1008.0,
+              "acc": 0.6,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_8_absent": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 1123.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_8_present": {
+              "n": 10,
+              "rtN": 6,
+              "rt": 921.0,
+              "acc": 0.6,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_24_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1475.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_24_present": {
+              "n": 10,
+              "rtN": 8,
+              "rt": 1224.5,
+              "acc": 0.8,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            }
+          },
+          "effects": {
+            "classic_present": 9.84375,
+            "classic_absent": 34.90625,
+            "cost_feature_8": 78.25,
+            "cost_feature_24": -9.5,
+            "cost_mixed_8": 125.25,
+            "cost_mixed_24": 111.5,
+            "load_search": 84.0,
+            "load_size": -50.75
+          },
+          "overall": {
+            "n": 160,
+            "rtN": 144,
+            "rt": 819.0,
+            "acc": 0.9,
+            "err": null,
+            "bias": null,
+            "timeout": 0,
+            "exposure": null
+          },
+          "eye": {
+            "trials": 0,
+            "samples": 0,
+            "calibration": []
+          }
+        },
+        "P05": {
+          "cells": {
+            "feature_0_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 777.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_8_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 685.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_24_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 727.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_24_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 685.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 744.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_8_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 710.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_24_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 867.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_24_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 692.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1101.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_8_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 902.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_24_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1569.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_24_present": {
+              "n": 10,
+              "rtN": 8,
+              "rt": 1294.0,
+              "acc": 0.8,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1128.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_8_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 851.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_24_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1903.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_24_present": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 1061.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            }
+          },
+          "effects": {
+            "classic_present": 24.5,
+            "classic_absent": 32.34375,
+            "cost_feature_8": -4.25,
+            "cost_feature_24": 73.75,
+            "cost_mixed_8": -12.0,
+            "cost_mixed_24": 50.75,
+            "load_search": -15.375,
+            "load_size": 70.375
+          },
+          "overall": {
+            "n": 160,
+            "rtN": 157,
+            "rt": 911.0,
+            "acc": 0.98125,
+            "err": null,
+            "bias": null,
+            "timeout": 0,
+            "exposure": null
+          },
+          "eye": {
+            "trials": 0,
+            "samples": 0,
+            "calibration": []
+          }
+        },
+        "P06": {
+          "cells": {
+            "feature_0_8_absent": {
+              "n": 10,
+              "rtN": 8,
+              "rt": 491.5,
+              "acc": 0.8,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_8_present": {
+              "n": 10,
+              "rtN": 6,
+              "rt": 598.5,
+              "acc": 0.7,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_24_absent": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 438.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_24_present": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 580.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 473.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_8_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 511.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_24_absent": {
+              "n": 10,
+              "rtN": 7,
+              "rt": 535.0,
+              "acc": 0.7,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_24_present": {
+              "n": 10,
+              "rtN": 8,
+              "rt": 563.0,
+              "acc": 0.8,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_8_absent": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 563.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_8_present": {
+              "n": 10,
+              "rtN": 7,
+              "rt": 673.0,
+              "acc": 0.7,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_24_absent": {
+              "n": 10,
+              "rtN": 8,
+              "rt": 765.0,
+              "acc": 0.8,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_24_present": {
+              "n": 10,
+              "rtN": 8,
+              "rt": 681.5,
+              "acc": 0.8,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_8_absent": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 621.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_8_present": {
+              "n": 10,
+              "rtN": 6,
+              "rt": 627.5,
+              "acc": 0.6,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_24_absent": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 741.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_24_present": {
+              "n": 10,
+              "rtN": 5,
+              "rt": 789.0,
+              "acc": 0.5,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            }
+          },
+          "effects": {
+            "classic_present": 1.6875,
+            "classic_absent": 15.96875,
+            "cost_feature_8": -52.75,
+            "cost_feature_24": 40.0,
+            "cost_mixed_8": 6.25,
+            "cost_mixed_24": 41.75,
+            "load_search": 30.375,
+            "load_size": 64.125
+          },
+          "overall": {
+            "n": 160,
+            "rtN": 128,
+            "rt": 579.5,
+            "acc": 0.80625,
+            "err": null,
+            "bias": null,
+            "timeout": 0,
+            "exposure": null
+          },
+          "eye": {
+            "trials": 159,
+            "samples": 948,
+            "calibration": [
+              164
+            ]
+          }
+        },
+        "P07": {
+          "cells": {
+            "feature_0_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1032.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_8_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 801.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_24_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 704.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_0_24_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 720.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 659.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_8_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 941.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_24_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 947.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "feature_1_24_present": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 805.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_8_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 904.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_8_present": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 879.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_24_absent": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1571.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_0_24_present": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 1058.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_8_absent": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 1061.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_8_present": {
+              "n": 10,
+              "rtN": 8,
+              "rt": 882.0,
+              "acc": 0.8,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_24_absent": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 1761.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "mixed_1_24_present": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 1229.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            }
+          },
+          "effects": {
+            "classic_present": 16.21875,
+            "classic_absent": 62.21875,
+            "cost_feature_8": -116.75,
+            "cost_feature_24": 164.25,
+            "cost_mixed_8": 79.75,
+            "cost_mixed_24": 180.25,
+            "load_search": 106.25,
+            "load_size": 190.75
+          },
+          "overall": {
+            "n": 160,
+            "rtN": 153,
+            "rt": 923.0,
+            "acc": 0.95625,
+            "err": null,
+            "bias": null,
+            "timeout": 0,
+            "exposure": null
+          },
+          "eye": {
+            "trials": 0,
+            "samples": 0,
+            "calibration": []
+          }
+        }
+      },
+      "cells": {
+        "feature_0_8_absent": {
+          "label": "特征搜索 · 无醒目干扰 · 8项 · 无目标",
+          "rt": 645.2857142857143,
+          "acc": 0.9428571428571428,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "feature_0_8_present": {
+          "label": "特征搜索 · 无醒目干扰 · 8项 · 有目标",
+          "rt": 598.2857142857143,
+          "acc": 0.942857142857143,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "feature_0_24_absent": {
+          "label": "特征搜索 · 无醒目干扰 · 24项 · 无目标",
+          "rt": 579.1428571428571,
+          "acc": 0.9714285714285715,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "feature_0_24_present": {
+          "label": "特征搜索 · 无醒目干扰 · 24项 · 有目标",
+          "rt": 586.9285714285714,
+          "acc": 0.942857142857143,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "feature_1_8_absent": {
+          "label": "特征搜索 · 有醒目干扰 · 8项 · 无目标",
+          "rt": 650.1428571428571,
+          "acc": 0.9857142857142858,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "feature_1_8_present": {
+          "label": "特征搜索 · 有醒目干扰 · 8项 · 有目标",
+          "rt": 651.7142857142857,
+          "acc": 0.9714285714285714,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "feature_1_24_absent": {
+          "label": "特征搜索 · 有醒目干扰 · 24项 · 无目标",
+          "rt": 673.2142857142857,
+          "acc": 0.9142857142857143,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "feature_1_24_present": {
+          "label": "特征搜索 · 有醒目干扰 · 24项 · 有目标",
+          "rt": 636.2857142857143,
+          "acc": 0.9285714285714285,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "mixed_0_8_absent": {
+          "label": "联合搜索 · 无醒目干扰 · 8项 · 无目标",
+          "rt": 801.4285714285714,
+          "acc": 0.9857142857142858,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "mixed_0_8_present": {
+          "label": "联合搜索 · 无醒目干扰 · 8项 · 有目标",
+          "rt": 776.4285714285714,
+          "acc": 0.9142857142857144,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "mixed_0_24_absent": {
+          "label": "联合搜索 · 无醒目干扰 · 24项 · 无目标",
+          "rt": 1265.7857142857142,
+          "acc": 0.9428571428571428,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "mixed_0_24_present": {
+          "label": "联合搜索 · 无醒目干扰 · 24项 · 有目标",
+          "rt": 973.2142857142857,
+          "acc": 0.7714285714285715,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "mixed_1_8_absent": {
+          "label": "联合搜索 · 有醒目干扰 · 8项 · 无目标",
+          "rt": 859.2857142857143,
+          "acc": 0.9571428571428573,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "mixed_1_8_present": {
+          "label": "联合搜索 · 有醒目干扰 · 8项 · 有目标",
+          "rt": 781.2857142857143,
+          "acc": 0.7857142857142856,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "mixed_1_24_absent": {
+          "label": "联合搜索 · 有醒目干扰 · 24项 · 无目标",
+          "rt": 1357.7142857142858,
+          "acc": 0.9714285714285715,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "mixed_1_24_present": {
+          "label": "联合搜索 · 有醒目干扰 · 24项 · 有目标",
+          "rt": 984.4285714285714,
+          "acc": 0.7857142857142858,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        }
+      },
+      "effects": {
+        "classic_present": {
+          "label": "无醒目干扰：联合 − 特征的斜率 · 有目标",
+          "unit": "ms/项",
+          "points": {
+            "P01": 19.4375,
+            "P02": 18.03125,
+            "P03": 1.34375,
+            "P04": 9.84375,
+            "P05": 24.5,
+            "P06": 1.6875,
+            "P07": 16.21875
+          },
+          "n": 7,
+          "mean": 13.008928571428571,
+          "median": 16.21875,
+          "sd": 8.973733993478652,
+          "ci95": [
+            4.7096088410227654,
+            21.308248301834375
+          ],
+          "t": 3.835459113053175,
+          "p": 0.008604277952422443,
+          "p_signflip": 0.015625,
+          "dz": 1.4496672824135812,
+          "positive": 7,
+          "negative": 0,
+          "p_holm": 0.06022994566695711
+        },
+        "classic_absent": {
+          "label": "无醒目干扰：联合 − 特征的斜率 · 无目标",
+          "unit": "ms/项",
+          "points": {
+            "P01": 39.0,
+            "P02": 4.625,
+            "P03": 43.03125,
+            "P04": 34.90625,
+            "P05": 32.34375,
+            "P06": 15.96875,
+            "P07": 62.21875
+          },
+          "n": 7,
+          "mean": 33.15625,
+          "median": 34.90625,
+          "sd": 18.661274449042864,
+          "ci95": [
+            15.897449667606615,
+            50.415050332393385
+          ],
+          "t": 4.700814628016183,
+          "p": 0.0033233548840462712,
+          "p_signflip": 0.015625,
+          "dz": 1.7767409235922031,
+          "positive": 7,
+          "negative": 0,
+          "p_holm": 0.02658683907237017
+        },
+        "cost_feature_8": {
+          "label": "特征搜索 · 8项：有干扰 − 无干扰",
+          "unit": "ms",
+          "points": {
+            "P01": 153.0,
+            "P02": 90.0,
+            "P03": 56.5,
+            "P04": 78.25,
+            "P05": -4.25,
+            "P06": -52.75,
+            "P07": -116.75
+          },
+          "n": 7,
+          "mean": 29.142857142857142,
+          "median": 56.5,
+          "sd": 92.4755437425279,
+          "ci95": [
+            -56.382756310818806,
+            114.66847059653308
+          ],
+          "t": 0.833785337976047,
+          "p": 0.43633096032188656,
+          "p_signflip": 0.453125,
+          "dz": 0.31514123587093706,
+          "positive": 4,
+          "negative": 3,
+          "p_holm": 1.0
+        },
+        "cost_feature_24": {
+          "label": "特征搜索 · 24项：有干扰 − 无干扰",
+          "unit": "ms",
+          "points": {
+            "P01": 152.0,
+            "P02": 62.0,
+            "P03": 19.5,
+            "P04": -9.5,
+            "P05": 73.75,
+            "P06": 40.0,
+            "P07": 164.25
+          },
+          "n": 7,
+          "mean": 71.71428571428571,
+          "median": 62.0,
+          "sd": 65.10895172891433,
+          "ci95": [
+            11.498548530354732,
+            131.9300228982167
+          ],
+          "t": 2.914164034472866,
+          "p": 0.026834448042296195,
+          "p_signflip": 0.03125,
+          "dz": 1.1014504735519801,
+          "positive": 6,
+          "negative": 1,
+          "p_holm": 0.16100668825377717
+        },
+        "cost_mixed_8": {
+          "label": "联合搜索 · 8项：有干扰 − 无干扰",
+          "unit": "ms",
+          "points": {
+            "P01": 37.5,
+            "P02": -24.25,
+            "P03": 7.0,
+            "P04": 125.25,
+            "P05": -12.0,
+            "P06": 6.25,
+            "P07": 79.75
+          },
+          "n": 7,
+          "mean": 31.357142857142858,
+          "median": 7.0,
+          "sd": 53.8378849616407,
+          "ci95": [
+            -18.43459614806633,
+            81.14888186235204
+          ],
+          "t": 1.5409818176296557,
+          "p": 0.1742545680648783,
+          "p_signflip": 0.1875,
+          "dz": 0.5824363806171938,
+          "positive": 5,
+          "negative": 2,
+          "p_holm": 0.8712728403243915
+        },
+        "cost_mixed_24": {
+          "label": "联合搜索 · 24项：有干扰 − 无干扰",
+          "unit": "ms",
+          "points": {
+            "P01": 1.75,
+            "P02": -166.75,
+            "P03": 141.75,
+            "P04": 111.5,
+            "P05": 50.75,
+            "P06": 41.75,
+            "P07": 180.25
+          },
+          "n": 7,
+          "mean": 51.57142857142857,
+          "median": 50.75,
+          "sd": 114.40085903357128,
+          "ci95": [
+            -54.231719509701364,
+            157.37457665255852
+          ],
+          "t": 1.1926936205635552,
+          "p": 0.2780122636754553,
+          "p_signflip": 0.265625,
+          "dz": 0.45079581575777133,
+          "positive": 6,
+          "negative": 1,
+          "p_holm": 1.0
+        },
+        "load_search": {
+          "label": "干扰代价：联合搜索 − 特征搜索",
+          "unit": "ms",
+          "points": {
+            "P01": -132.875,
+            "P02": -171.5,
+            "P03": 36.375,
+            "P04": 84.0,
+            "P05": -15.375,
+            "P06": 30.375,
+            "P07": 106.25
+          },
+          "n": 7,
+          "mean": -8.964285714285714,
+          "median": 30.375,
+          "sd": 105.93452464567329,
+          "ci95": [
+            -106.93738043292937,
+            89.00880900435796
+          ],
+          "t": -0.22388612929220048,
+          "p": 0.8302745796367752,
+          "p_signflip": 0.84375,
+          "dz": -0.08462100287200226,
+          "positive": 4,
+          "negative": 3,
+          "p_holm": 1.0
+        },
+        "load_size": {
+          "label": "干扰代价：24项 − 8项",
+          "unit": "ms",
+          "points": {
+            "P01": -18.375,
+            "P02": -85.25,
+            "P03": 48.875,
+            "P04": -50.75,
+            "P05": 70.375,
+            "P06": 64.125,
+            "P07": 190.75
+          },
+          "n": 7,
+          "mean": 31.392857142857142,
+          "median": 48.875,
+          "sd": 92.30490203925352,
+          "ci95": [
+            -53.97493905705974,
+            116.76065334277402
+          ],
+          "t": 0.8998188731997854,
+          "p": 0.4028842482410968,
+          "p_signflip": 0.453125,
+          "dz": 0.3400995662127136,
+          "positive": 4,
+          "negative": 3,
+          "p_holm": 1.0
+        }
+      },
+      "total": 1120,
+      "timeouts": 0
+    },
+    "ratio": {
+      "people": {
+        "P01": {
+          "cells": {
+            "position_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1512.0,
+              "acc": null,
+              "err": 6.0,
+              "bias": -1.0,
+              "timeout": 0,
+              "exposure": 308.1
+            },
+            "position_1500": {
+              "n": 10,
+              "rtN": 8,
+              "rt": 736.5,
+              "acc": null,
+              "err": 25.9,
+              "bias": -15.7,
+              "timeout": 0,
+              "exposure": 1508.6
+            },
+            "angle_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1671.0,
+              "acc": null,
+              "err": 7.9,
+              "bias": -0.5,
+              "timeout": 0,
+              "exposure": 306.2
+            },
+            "angle_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 642.5,
+              "acc": null,
+              "err": 13.4,
+              "bias": -11.4,
+              "timeout": 0,
+              "exposure": 1507.9
+            },
+            "area_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1711.0,
+              "acc": null,
+              "err": 11.3,
+              "bias": -0.5,
+              "timeout": 0,
+              "exposure": 307.1
+            },
+            "area_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 709.0,
+              "acc": null,
+              "err": 9.9,
+              "bias": -1.1,
+              "timeout": 0,
+              "exposure": 1509.6
+            }
+          },
+          "effects": {
+            "classic_angle": -12.499999999999998,
+            "classic_area": -15.999999999999998,
+            "duration_position": -19.9,
+            "duration_angle": -5.5,
+            "duration_area": 1.4000000000000004,
+            "interaction_angle": 14.399999999999999,
+            "interaction_area": 21.299999999999997
+          },
+          "overall": {
+            "n": 60,
+            "rtN": 58,
+            "rt": 1152.0,
+            "acc": null,
+            "err": 12.4,
+            "bias": -5.033333333333333,
+            "timeout": 0,
+            "exposure": 907.9166666666666
+          },
+          "eye": {
+            "trials": 0,
+            "samples": 0,
+            "calibration": []
+          }
+        },
+        "P02": {
+          "cells": {
+            "position_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1854.5,
+              "acc": null,
+              "err": 10.5,
+              "bias": 1.5,
+              "timeout": 0,
+              "exposure": 308.5
+            },
+            "position_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1046.0,
+              "acc": null,
+              "err": 9.7,
+              "bias": -5.5,
+              "timeout": 0,
+              "exposure": 1509.0
+            },
+            "angle_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 2376.5,
+              "acc": null,
+              "err": 13.9,
+              "bias": 0.3,
+              "timeout": 0,
+              "exposure": 306.0
+            },
+            "angle_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 2120.5,
+              "acc": null,
+              "err": 7.0,
+              "bias": 0.0,
+              "timeout": 0,
+              "exposure": 1509.6
+            },
+            "area_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 2477.5,
+              "acc": null,
+              "err": 16.9,
+              "bias": -1.5,
+              "timeout": 0,
+              "exposure": 306.5
+            },
+            "area_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1301.5,
+              "acc": null,
+              "err": 8.9,
+              "bias": -7.5,
+              "timeout": 0,
+              "exposure": 1508.0
+            }
+          },
+          "effects": {
+            "classic_angle": -2.6999999999999993,
+            "classic_area": -0.7999999999999989,
+            "duration_position": 0.8000000000000007,
+            "duration_angle": 6.9,
+            "duration_area": 7.999999999999998,
+            "interaction_angle": 6.1,
+            "interaction_area": 7.1999999999999975
+          },
+          "overall": {
+            "n": 60,
+            "rtN": 60,
+            "rt": 1920.5,
+            "acc": null,
+            "err": 11.15,
+            "bias": -2.1166666666666667,
+            "timeout": 0,
+            "exposure": 907.9333333333333
+          },
+          "eye": {
+            "trials": 60,
+            "samples": 573,
+            "calibration": [
+              112
+            ]
+          }
+        },
+        "P03": {
+          "cells": {
+            "position_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 2786.0,
+              "acc": null,
+              "err": 9.6,
+              "bias": -1.0,
+              "timeout": 0,
+              "exposure": 309.8
+            },
+            "position_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1876.5,
+              "acc": null,
+              "err": 3.2,
+              "bias": -2.2,
+              "timeout": 0,
+              "exposure": 1510.0
+            },
+            "angle_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 2949.5,
+              "acc": null,
+              "err": 8.6,
+              "bias": -4.0,
+              "timeout": 0,
+              "exposure": 315.1
+            },
+            "angle_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1746.0,
+              "acc": null,
+              "err": 5.8,
+              "bias": -5.6,
+              "timeout": 0,
+              "exposure": 1514.2
+            },
+            "area_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 3057.0,
+              "acc": null,
+              "err": 10.6,
+              "bias": -8.2,
+              "timeout": 0,
+              "exposure": 308.6
+            },
+            "area_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 2570.5,
+              "acc": null,
+              "err": 6.3,
+              "bias": -5.5,
+              "timeout": 0,
+              "exposure": 1510.2
+            }
+          },
+          "effects": {
+            "classic_angle": 2.5999999999999996,
+            "classic_area": 3.0999999999999996,
+            "duration_position": 6.3999999999999995,
+            "duration_angle": 2.8,
+            "duration_area": 4.3,
+            "interaction_angle": -3.5999999999999996,
+            "interaction_area": -2.0999999999999996
+          },
+          "overall": {
+            "n": 60,
+            "rtN": 60,
+            "rt": 2527.0,
+            "acc": null,
+            "err": 7.35,
+            "bias": -4.416666666666667,
+            "timeout": 0,
+            "exposure": 911.3166666666667
+          },
+          "eye": {
+            "trials": 60,
+            "samples": 570,
+            "calibration": [
+              100
+            ]
+          }
+        },
+        "P04": {
+          "cells": {
+            "position_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 3546.5,
+              "acc": null,
+              "err": 10.1,
+              "bias": 3.7,
+              "timeout": 0,
+              "exposure": 304.4
+            },
+            "position_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 3709.5,
+              "acc": null,
+              "err": 5.6,
+              "bias": -2.8,
+              "timeout": 0,
+              "exposure": 1504.1
+            },
+            "angle_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 4945.0,
+              "acc": null,
+              "err": 20.2,
+              "bias": -3.4,
+              "timeout": 0,
+              "exposure": 304.2
+            },
+            "angle_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 3500.0,
+              "acc": null,
+              "err": 8.4,
+              "bias": -8.4,
+              "timeout": 0,
+              "exposure": 1503.6
+            },
+            "area_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 3451.0,
+              "acc": null,
+              "err": 8.3,
+              "bias": 5.9,
+              "timeout": 0,
+              "exposure": 304.7
+            },
+            "area_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 3099.5,
+              "acc": null,
+              "err": 12.0,
+              "bias": 7.0,
+              "timeout": 0,
+              "exposure": 1504.0
+            }
+          },
+          "effects": {
+            "classic_angle": 2.8000000000000007,
+            "classic_area": 6.4,
+            "duration_position": 4.5,
+            "duration_angle": 11.799999999999999,
+            "duration_area": -3.6999999999999993,
+            "interaction_angle": 7.299999999999999,
+            "interaction_area": -8.2
+          },
+          "overall": {
+            "n": 60,
+            "rtN": 60,
+            "rt": 3601.5,
+            "acc": null,
+            "err": 10.766666666666667,
+            "bias": 0.3333333333333333,
+            "timeout": 0,
+            "exposure": 904.1666666666666
+          },
+          "eye": {
+            "trials": 0,
+            "samples": 0,
+            "calibration": []
+          }
+        },
+        "P05": {
+          "cells": {
+            "position_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 3156.0,
+              "acc": null,
+              "err": 7.2,
+              "bias": 0.0,
+              "timeout": 0,
+              "exposure": 323.0
+            },
+            "position_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 2930.0,
+              "acc": null,
+              "err": 5.3,
+              "bias": 2.9,
+              "timeout": 0,
+              "exposure": 1522.6
+            },
+            "angle_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 3375.5,
+              "acc": null,
+              "err": 7.0,
+              "bias": -1.8,
+              "timeout": 0,
+              "exposure": 315.6
+            },
+            "angle_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 2614.0,
+              "acc": null,
+              "err": 8.6,
+              "bias": -8.2,
+              "timeout": 0,
+              "exposure": 1514.2
+            },
+            "area_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 3671.5,
+              "acc": null,
+              "err": 5.0,
+              "bias": -3.2,
+              "timeout": 0,
+              "exposure": 320.5
+            },
+            "area_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 2606.0,
+              "acc": null,
+              "err": 10.8,
+              "bias": -3.4,
+              "timeout": 0,
+              "exposure": 1520.8
+            }
+          },
+          "effects": {
+            "classic_angle": 3.3,
+            "classic_area": 5.500000000000001,
+            "duration_position": 1.9000000000000004,
+            "duration_angle": -1.5999999999999996,
+            "duration_area": -5.800000000000001,
+            "interaction_angle": -3.5,
+            "interaction_area": -7.700000000000001
+          },
+          "overall": {
+            "n": 60,
+            "rtN": 60,
+            "rt": 3146.5,
+            "acc": null,
+            "err": 7.316666666666666,
+            "bias": -2.283333333333333,
+            "timeout": 0,
+            "exposure": 919.45
+          },
+          "eye": {
+            "trials": 0,
+            "samples": 0,
+            "calibration": []
+          }
+        },
+        "P06": {
+          "cells": {
+            "position_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1247.0,
+              "acc": null,
+              "err": 11.5,
+              "bias": -8.5,
+              "timeout": 0,
+              "exposure": 316.3
+            },
+            "position_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 874.0,
+              "acc": null,
+              "err": 6.7,
+              "bias": -6.5,
+              "timeout": 0,
+              "exposure": 1513.0
+            },
+            "angle_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1508.0,
+              "acc": null,
+              "err": 16.7,
+              "bias": -11.5,
+              "timeout": 0,
+              "exposure": 315.5
+            },
+            "angle_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 799.5,
+              "acc": null,
+              "err": 15.7,
+              "bias": -11.5,
+              "timeout": 0,
+              "exposure": 1517.8
+            },
+            "area_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1208.0,
+              "acc": null,
+              "err": 10.3,
+              "bias": -1.3,
+              "timeout": 0,
+              "exposure": 313.6
+            },
+            "area_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 801.5,
+              "acc": null,
+              "err": 11.3,
+              "bias": -2.5,
+              "timeout": 0,
+              "exposure": 1512.4
+            }
+          },
+          "effects": {
+            "classic_angle": 9.0,
+            "classic_area": 4.6000000000000005,
+            "duration_position": 4.8,
+            "duration_angle": 1.0,
+            "duration_area": -1.0,
+            "interaction_angle": -3.8,
+            "interaction_area": -5.8
+          },
+          "overall": {
+            "n": 60,
+            "rtN": 60,
+            "rt": 1130.5,
+            "acc": null,
+            "err": 12.033333333333333,
+            "bias": -6.966666666666667,
+            "timeout": 0,
+            "exposure": 914.7666666666667
+          },
+          "eye": {
+            "trials": 60,
+            "samples": 525,
+            "calibration": [
+              164
+            ]
+          }
+        },
+        "P07": {
+          "cells": {
+            "position_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 2060.5,
+              "acc": null,
+              "err": 5.2,
+              "bias": 2.0,
+              "timeout": 0,
+              "exposure": 302.1
+            },
+            "position_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1533.0,
+              "acc": null,
+              "err": 3.8,
+              "bias": 1.0,
+              "timeout": 0,
+              "exposure": 1501.9
+            },
+            "angle_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 2427.5,
+              "acc": null,
+              "err": 14.5,
+              "bias": -12.5,
+              "timeout": 0,
+              "exposure": 301.8
+            },
+            "angle_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1708.0,
+              "acc": null,
+              "err": 9.3,
+              "bias": -8.9,
+              "timeout": 0,
+              "exposure": 1501.9
+            },
+            "area_300": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1950.5,
+              "acc": null,
+              "err": 11.8,
+              "bias": 8.0,
+              "timeout": 0,
+              "exposure": 302.8
+            },
+            "area_1500": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 2248.0,
+              "acc": null,
+              "err": 7.7,
+              "bias": 4.1,
+              "timeout": 0,
+              "exposure": 1502.9
+            }
+          },
+          "effects": {
+            "classic_angle": 5.500000000000001,
+            "classic_area": 3.9000000000000004,
+            "duration_position": 1.4000000000000004,
+            "duration_angle": 5.199999999999999,
+            "duration_area": 4.1000000000000005,
+            "interaction_angle": 3.799999999999999,
+            "interaction_area": 2.7
+          },
+          "overall": {
+            "n": 60,
+            "rtN": 60,
+            "rt": 1990.0,
+            "acc": null,
+            "err": 8.716666666666667,
+            "bias": -1.05,
+            "timeout": 0,
+            "exposure": 902.2333333333333
+          },
+          "eye": {
+            "trials": 0,
+            "samples": 0,
+            "calibration": []
+          }
+        }
+      },
+      "cells": {
+        "position_300": {
+          "label": "共同基线 · 300 ms",
+          "rt": 2308.9285714285716,
+          "acc": null,
+          "err": 8.585714285714287,
+          "bias": -0.4714285714285714,
+          "exposure": 310.31428571428575,
+          "rtPeople": 7
+        },
+        "position_1500": {
+          "label": "共同基线 · 1500 ms",
+          "rt": 1815.0714285714287,
+          "acc": null,
+          "err": 8.6,
+          "bias": -4.114285714285715,
+          "exposure": 1509.8857142857144,
+          "rtPeople": 7
+        },
+        "angle_300": {
+          "label": "扇形角度 · 300 ms",
+          "rt": 2750.4285714285716,
+          "acc": null,
+          "err": 12.685714285714285,
+          "bias": -4.771428571428571,
+          "exposure": 309.2,
+          "rtPeople": 7
+        },
+        "angle_1500": {
+          "label": "扇形角度 · 1500 ms",
+          "rt": 1875.7857142857142,
+          "acc": null,
+          "err": 9.742857142857144,
+          "bias": -7.7142857142857135,
+          "exposure": 1509.8857142857141,
+          "rtPeople": 7
+        },
+        "area_300": {
+          "label": "圆形面积 · 300 ms",
+          "rt": 2503.785714285714,
+          "acc": null,
+          "err": 10.599999999999998,
+          "bias": -0.11428571428571413,
+          "exposure": 309.11428571428576,
+          "rtPeople": 7
+        },
+        "area_1500": {
+          "label": "圆形面积 · 1500 ms",
+          "rt": 1905.142857142857,
+          "acc": null,
+          "err": 9.557142857142859,
+          "bias": -1.2714285714285716,
+          "exposure": 1509.7,
+          "rtPeople": 7
+        }
+      },
+      "effects": {
+        "classic_angle": {
+          "label": "1500 ms：角度误差 − 基线误差",
+          "unit": "百分点",
+          "points": {
+            "P01": -12.499999999999998,
+            "P02": -2.6999999999999993,
+            "P03": 2.5999999999999996,
+            "P04": 2.8000000000000007,
+            "P05": 3.3,
+            "P06": 9.0,
+            "P07": 5.500000000000001
+          },
+          "n": 7,
+          "mean": 1.1428571428571435,
+          "median": 2.8000000000000007,
+          "sd": 6.965834992508589,
+          "ci95": [
+            -5.299465733449458,
+            7.585180019163745
+          ],
+          "t": 0.4340780089286748,
+          "p": 0.6794062980649367,
+          "p_signflip": 0.71875,
+          "dz": 0.16406606588962125,
+          "positive": 5,
+          "negative": 2,
+          "p_holm": 1.0
+        },
+        "classic_area": {
+          "label": "1500 ms：面积误差 − 基线误差",
+          "unit": "百分点",
+          "points": {
+            "P01": -15.999999999999998,
+            "P02": -0.7999999999999989,
+            "P03": 3.0999999999999996,
+            "P04": 6.4,
+            "P05": 5.500000000000001,
+            "P06": 4.6000000000000005,
+            "P07": 3.9000000000000004
+          },
+          "n": 7,
+          "mean": 0.9571428571428579,
+          "median": 3.9000000000000004,
+          "sd": 7.825355613401251,
+          "ci95": [
+            -6.280104010988004,
+            8.19438972527372
+          ],
+          "t": 0.3236098260921264,
+          "p": 0.7572157627233355,
+          "p_signflip": 0.828125,
+          "dz": 0.12231301737951825,
+          "positive": 5,
+          "negative": 2,
+          "p_holm": 1.0
+        },
+        "duration_position": {
+          "label": "共同基线：300 − 1500 ms的误差",
+          "unit": "百分点",
+          "points": {
+            "P01": -19.9,
+            "P02": 0.8000000000000007,
+            "P03": 6.3999999999999995,
+            "P04": 4.5,
+            "P05": 1.9000000000000004,
+            "P06": 4.8,
+            "P07": 1.4000000000000004
+          },
+          "n": 7,
+          "mean": -0.014285714285714108,
+          "median": 1.9000000000000004,
+          "sd": 9.004337579083495,
+          "ci95": [
+            -8.341909040721447,
+            8.313337612150018
+          ],
+          "t": -0.004197582217343894,
+          "p": 0.9967869064501347,
+          "p_signflip": 1.0,
+          "dz": -0.0015865369506912886,
+          "positive": 6,
+          "negative": 1,
+          "p_holm": 1.0
+        },
+        "duration_angle": {
+          "label": "扇形角度：300 − 1500 ms的误差",
+          "unit": "百分点",
+          "points": {
+            "P01": -5.5,
+            "P02": 6.9,
+            "P03": 2.8,
+            "P04": 11.799999999999999,
+            "P05": -1.5999999999999996,
+            "P06": 1.0,
+            "P07": 5.199999999999999
+          },
+          "n": 7,
+          "mean": 2.942857142857143,
+          "median": 2.8,
+          "sd": 5.699665821448698,
+          "ci95": [
+            -2.3284545589433394,
+            8.214168844657625
+          ],
+          "t": 1.3660569563025848,
+          "p": 0.220905974152171,
+          "p_signflip": 0.234375,
+          "dz": 0.5163209975894955,
+          "positive": 5,
+          "negative": 2,
+          "p_holm": 1.0
+        },
+        "duration_area": {
+          "label": "圆形面积：300 − 1500 ms的误差",
+          "unit": "百分点",
+          "points": {
+            "P01": 1.4000000000000004,
+            "P02": 7.999999999999998,
+            "P03": 4.3,
+            "P04": -3.6999999999999993,
+            "P05": -5.800000000000001,
+            "P06": -1.0,
+            "P07": 4.1000000000000005
+          },
+          "n": 7,
+          "mean": 1.042857142857143,
+          "median": 1.4000000000000004,
+          "sd": 4.864448287612598,
+          "ci95": [
+            -3.456007173854343,
+            5.541721459568628
+          ],
+          "t": 0.5672052594316931,
+          "p": 0.5911478572275084,
+          "p_signflip": 0.609375,
+          "dz": 0.2143834369691619,
+          "positive": 4,
+          "negative": 3,
+          "p_holm": 1.0
+        },
+        "interaction_angle": {
+          "label": "短时误差增量：角度 − 共同基线",
+          "unit": "百分点",
+          "points": {
+            "P01": 14.399999999999999,
+            "P02": 6.1,
+            "P03": -3.5999999999999996,
+            "P04": 7.299999999999999,
+            "P05": -3.5,
+            "P06": -3.8,
+            "P07": 3.799999999999999
+          },
+          "n": 7,
+          "mean": 2.9571428571428564,
+          "median": 3.799999999999999,
+          "sd": 6.961048087478671,
+          "ci95": [
+            -3.4807528703992228,
+            9.395038584684936
+          ],
+          "t": 1.1239492233022121,
+          "p": 0.30398124366256213,
+          "p_signflip": 0.328125,
+          "dz": 0.42481287587455085,
+          "positive": 4,
+          "negative": 3,
+          "p_holm": 1.0
+        },
+        "interaction_area": {
+          "label": "短时误差增量：面积 − 共同基线",
+          "unit": "百分点",
+          "points": {
+            "P01": 21.299999999999997,
+            "P02": 7.1999999999999975,
+            "P03": -2.0999999999999996,
+            "P04": -8.2,
+            "P05": -7.700000000000001,
+            "P06": -5.8,
+            "P07": 2.7
+          },
+          "n": 7,
+          "mean": 1.0571428571428558,
+          "median": -2.0999999999999996,
+          "sd": 10.563909810112468,
+          "ci95": [
+            -8.712844216354904,
+            10.827129930640615
+          ],
+          "t": 0.2647634399141562,
+          "p": 0.8000522506730612,
+          "p_signflip": 0.84375,
+          "dz": 0.10007117403926426,
+          "positive": 3,
+          "negative": 4,
+          "p_holm": 1.0
+        }
+      },
+      "total": 420,
+      "timeouts": 0
+    },
+    "map": {
+      "people": {
+        "P01": {
+          "cells": {
+            "north_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 500.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_ego_120": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 636.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_geo_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 529.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_geo_120": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 779.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 467.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_ego_120": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 423.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_geo_30": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 1726.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_geo_120": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 1902.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 1,
+              "exposure": null
+            },
+            "dual_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 591.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_ego_120": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 644.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_geo_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 576.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_geo_120": {
+              "n": 10,
+              "rtN": 8,
+              "rt": 799.0,
+              "acc": 0.8,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            }
+          },
+          "effects": {
+            "orientation_ego": 123.0,
+            "dual_gain_ego": -49.25,
+            "dual_ego": -172.25,
+            "orientation_geo": -1159.5,
+            "dual_gain_geo": 1126.5,
+            "dual_geo": -33.0,
+            "interaction": 1282.5
+          },
+          "overall": {
+            "n": 120,
+            "rtN": 115,
+            "rt": 620.0,
+            "acc": 0.9583333333333334,
+            "err": null,
+            "bias": null,
+            "timeout": 1,
+            "exposure": null
+          },
+          "eye": {
+            "trials": 0,
+            "samples": 0,
+            "calibration": []
+          }
+        },
+        "P02": {
+          "cells": {
+            "north_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 584.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_ego_120": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 804.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_geo_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 871.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_geo_120": {
+              "n": 10,
+              "rtN": 8,
+              "rt": 979.5,
+              "acc": 0.8,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 442.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_ego_120": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 445.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_geo_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1501.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_geo_120": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1731.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 620.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_ego_120": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 702.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_geo_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 645.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_geo_120": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 814.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            }
+          },
+          "effects": {
+            "orientation_ego": 250.0,
+            "dual_gain_ego": 33.0,
+            "dual_ego": -217.0,
+            "orientation_geo": -691.0,
+            "dual_gain_geo": 887.0,
+            "dual_geo": 196.0,
+            "interaction": 941.0
+          },
+          "overall": {
+            "n": 120,
+            "rtN": 115,
+            "rt": 724.0,
+            "acc": 0.9583333333333334,
+            "err": null,
+            "bias": null,
+            "timeout": 0,
+            "exposure": null
+          },
+          "eye": {
+            "trials": 120,
+            "samples": 1179,
+            "calibration": [
+              100
+            ]
+          }
+        },
+        "P03": {
+          "cells": {
+            "north_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 447.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_ego_120": {
+              "n": 10,
+              "rtN": 8,
+              "rt": 624.0,
+              "acc": 0.8,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_geo_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 533.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_geo_120": {
+              "n": 10,
+              "rtN": 2,
+              "rt": 499.5,
+              "acc": 0.2,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 373.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_ego_120": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 383.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_geo_30": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 382.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_geo_120": {
+              "n": 10,
+              "rtN": 0,
+              "rt": null,
+              "acc": 0.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 449.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_ego_120": {
+              "n": 10,
+              "rtN": 8,
+              "rt": 593.0,
+              "acc": 0.8,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_geo_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 476.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_geo_120": {
+              "n": 10,
+              "rtN": 2,
+              "rt": 445.5,
+              "acc": 0.2,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            }
+          },
+          "effects": {
+            "orientation_ego": 157.75,
+            "dual_gain_ego": 14.5,
+            "dual_ego": -143.25,
+            "orientation_geo": null,
+            "dual_gain_geo": null,
+            "dual_geo": 55.5,
+            "interaction": null
+          },
+          "overall": {
+            "n": 120,
+            "rtN": 89,
+            "rt": 452.0,
+            "acc": 0.7416666666666667,
+            "err": null,
+            "bias": null,
+            "timeout": 0,
+            "exposure": null
+          },
+          "eye": {
+            "trials": 120,
+            "samples": 635,
+            "calibration": [
+              112
+            ]
+          }
+        },
+        "P04": {
+          "cells": {
+            "north_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 549.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_ego_120": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 713.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_geo_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1512.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_geo_120": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1840.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 419.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_ego_120": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 450.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_geo_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 2033.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_geo_120": {
+              "n": 10,
+              "rtN": 5,
+              "rt": 2161.0,
+              "acc": 0.5,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 585.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_ego_120": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 759.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_geo_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 716.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_geo_120": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 712.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            }
+          },
+          "effects": {
+            "orientation_ego": 196.0,
+            "dual_gain_ego": -41.0,
+            "dual_ego": -237.0,
+            "orientation_geo": -420.75,
+            "dual_gain_geo": 1383.0,
+            "dual_geo": 962.25,
+            "interaction": 616.75
+          },
+          "overall": {
+            "n": 120,
+            "rtN": 113,
+            "rt": 702.0,
+            "acc": 0.9416666666666667,
+            "err": null,
+            "bias": null,
+            "timeout": 0,
+            "exposure": null
+          },
+          "eye": {
+            "trials": 0,
+            "samples": 0,
+            "calibration": []
+          }
+        },
+        "P05": {
+          "cells": {
+            "north_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 808.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_ego_120": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 962.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_geo_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 910.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_geo_120": {
+              "n": 10,
+              "rtN": 8,
+              "rt": 1310.0,
+              "acc": 0.8,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 533.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_ego_120": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 501.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_geo_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 617.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_geo_120": {
+              "n": 10,
+              "rtN": 0,
+              "rt": null,
+              "acc": 0.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 841.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_ego_120": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 1260.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_geo_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 759.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_geo_120": {
+              "n": 10,
+              "rtN": 8,
+              "rt": 1743.5,
+              "acc": 0.8,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            }
+          },
+          "effects": {
+            "orientation_ego": 367.75,
+            "dual_gain_ego": -165.5,
+            "dual_ego": -533.25,
+            "orientation_geo": null,
+            "dual_gain_geo": null,
+            "dual_geo": -141.25,
+            "interaction": null
+          },
+          "overall": {
+            "n": 120,
+            "rtN": 104,
+            "rt": 833.0,
+            "acc": 0.8666666666666667,
+            "err": null,
+            "bias": null,
+            "timeout": 0,
+            "exposure": null
+          },
+          "eye": {
+            "trials": 0,
+            "samples": 0,
+            "calibration": []
+          }
+        },
+        "P06": {
+          "cells": {
+            "north_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 479.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_ego_120": {
+              "n": 10,
+              "rtN": 7,
+              "rt": 602.0,
+              "acc": 0.7,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_geo_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 529.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_geo_120": {
+              "n": 10,
+              "rtN": 1,
+              "rt": 516.0,
+              "acc": 0.1,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 415.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_ego_120": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 447.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_geo_30": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 394.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_geo_120": {
+              "n": 10,
+              "rtN": 1,
+              "rt": 315.0,
+              "acc": 0.1,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_ego_30": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 540.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_ego_120": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 681.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_geo_30": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 493.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_geo_120": {
+              "n": 10,
+              "rtN": 3,
+              "rt": 577.0,
+              "acc": 0.3,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            }
+          },
+          "effects": {
+            "orientation_ego": 109.5,
+            "dual_gain_ego": -69.75,
+            "dual_ego": -179.25,
+            "orientation_geo": 168.0,
+            "dual_gain_geo": -180.5,
+            "dual_geo": -12.5,
+            "interaction": -58.5
+          },
+          "overall": {
+            "n": 120,
+            "rtN": 88,
+            "rt": 494.0,
+            "acc": 0.7333333333333333,
+            "err": null,
+            "bias": null,
+            "timeout": 0,
+            "exposure": null
+          },
+          "eye": {
+            "trials": 120,
+            "samples": 629,
+            "calibration": [
+              164
+            ]
+          }
+        },
+        "P07": {
+          "cells": {
+            "north_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 647.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_ego_120": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 838.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_geo_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 634.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "north_geo_120": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1087.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 2210.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "track_ego_120": {
+              "n": 10,
+              "rtN": 1,
+              "rt": 3667.0,
+              "acc": 0.1,
+              "err": null,
+              "bias": null,
+              "timeout": 1,
+              "exposure": null
+            },
+            "track_geo_30": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 2061.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 1,
+              "exposure": null
+            },
+            "track_geo_120": {
+              "n": 10,
+              "rtN": 6,
+              "rt": 3213.5,
+              "acc": 0.6,
+              "err": null,
+              "bias": null,
+              "timeout": 1,
+              "exposure": null
+            },
+            "dual_ego_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 708.0,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_ego_120": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 864.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_geo_30": {
+              "n": 10,
+              "rtN": 10,
+              "rt": 1464.5,
+              "acc": 1.0,
+              "err": null,
+              "bias": null,
+              "timeout": 0,
+              "exposure": null
+            },
+            "dual_geo_120": {
+              "n": 10,
+              "rtN": 9,
+              "rt": 2049.0,
+              "acc": 0.9,
+              "err": null,
+              "bias": null,
+              "timeout": 1,
+              "exposure": null
+            }
+          },
+          "effects": {
+            "orientation_ego": -2196.0,
+            "dual_gain_ego": -43.5,
+            "dual_ego": 2152.5,
+            "orientation_geo": -1776.75,
+            "dual_gain_geo": 880.5,
+            "dual_geo": -896.25,
+            "interaction": -419.25
+          },
+          "overall": {
+            "n": 120,
+            "rtN": 105,
+            "rt": 918.0,
+            "acc": 0.875,
+            "err": null,
+            "bias": null,
+            "timeout": 4,
+            "exposure": null
+          },
+          "eye": {
+            "trials": 0,
+            "samples": 0,
+            "calibration": []
+          }
+        }
+      },
+      "cells": {
+        "north_ego_30": {
+          "label": "北向上 · 左右判断 · 30°",
+          "rt": 573.6428571428571,
+          "acc": 1.0,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "north_ego_120": {
+          "label": "北向上 · 左右判断 · 120°",
+          "rt": 740.0,
+          "acc": 0.8857142857142858,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "north_geo_30": {
+          "label": "北向上 · 东西判断 · 30°",
+          "rt": 788.5714285714286,
+          "acc": 1.0,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "north_geo_120": {
+          "label": "北向上 · 东西判断 · 120°",
+          "rt": 1001.7142857142857,
+          "acc": 0.7000000000000001,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "track_ego_30": {
+          "label": "航向上 · 左右判断 · 30°",
+          "rt": 694.5,
+          "acc": 1.0,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "track_ego_120": {
+          "label": "航向上 · 左右判断 · 120°",
+          "rt": 902.5714285714286,
+          "acc": 0.8714285714285713,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "track_geo_30": {
+          "label": "航向上 · 东西判断 · 30°",
+          "rt": 1245.0,
+          "acc": 0.942857142857143,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "track_geo_120": {
+          "label": "航向上 · 东西判断 · 120°",
+          "rt": 1864.6,
+          "acc": 0.4428571428571429,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 5
+        },
+        "dual_ego_30": {
+          "label": "北向上＋航向小地图 · 左右判断 · 30°",
+          "rt": 619.2857142857143,
+          "acc": 0.9857142857142858,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "dual_ego_120": {
+          "label": "北向上＋航向小地图 · 左右判断 · 120°",
+          "rt": 786.2142857142857,
+          "acc": 0.9000000000000001,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "dual_geo_30": {
+          "label": "北向上＋航向小地图 · 东西判断 · 30°",
+          "rt": 732.8571428571429,
+          "acc": 0.9857142857142858,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        },
+        "dual_geo_120": {
+          "label": "北向上＋航向小地图 · 东西判断 · 120°",
+          "rt": 1020.0714285714286,
+          "acc": 0.7000000000000001,
+          "err": null,
+          "bias": null,
+          "exposure": null,
+          "rtPeople": 7
+        }
+      },
+      "effects": {
+        "orientation_ego": {
+          "label": "左右判断：北向上 − 航向上",
+          "unit": "ms",
+          "points": {
+            "P01": 123.0,
+            "P02": 250.0,
+            "P03": 157.75,
+            "P04": 196.0,
+            "P05": 367.75,
+            "P06": 109.5,
+            "P07": -2196.0
+          },
+          "n": 7,
+          "mean": -141.71428571428572,
+          "median": 157.75,
+          "sd": 910.1278118641202,
+          "ci95": [
+            -983.442122942819,
+            700.0135515142476
+          ],
+          "t": -0.41196494859024385,
+          "p": 0.6946782931388062,
+          "p_signflip": 1.0,
+          "dz": -0.15570811469218493,
+          "positive": 6,
+          "negative": 1,
+          "p_holm": 1.0
+        },
+        "dual_gain_ego": {
+          "label": "左右判断：北向上 − 双地图",
+          "unit": "ms",
+          "points": {
+            "P01": -49.25,
+            "P02": 33.0,
+            "P03": 14.5,
+            "P04": -41.0,
+            "P05": -165.5,
+            "P06": -69.75,
+            "P07": -43.5
+          },
+          "n": 7,
+          "mean": -45.92857142857143,
+          "median": -43.5,
+          "sd": 64.27459229186688,
+          "ci95": [
+            -105.37265483458003,
+            13.515511977437178
+          ],
+          "t": -1.8905694107038742,
+          "p": 0.10756715367183428,
+          "p_signflip": 0.09375,
+          "dz": -0.7145680710040552,
+          "positive": 2,
+          "negative": 5,
+          "p_holm": 0.5378357683591715
+        },
+        "dual_ego": {
+          "label": "左右判断：航向上 − 双地图",
+          "unit": "ms",
+          "points": {
+            "P01": -172.25,
+            "P02": -217.0,
+            "P03": -143.25,
+            "P04": -237.0,
+            "P05": -533.25,
+            "P06": -179.25,
+            "P07": 2152.5
+          },
+          "n": 7,
+          "mean": 95.78571428571429,
+          "median": -179.25,
+          "sd": 916.4211803324413,
+          "ci95": [
+            -751.7625180133446,
+            943.3339465847732
+          ],
+          "t": 0.2765378895550562,
+          "p": 0.7914141440558837,
+          "p_signflip": 1.0,
+          "dz": 0.10452149769276069,
+          "positive": 1,
+          "negative": 6,
+          "p_holm": 1.0
+        },
+        "orientation_geo": {
+          "label": "东西判断：北向上 − 航向上",
+          "unit": "ms",
+          "points": {
+            "P01": -1159.5,
+            "P02": -691.0,
+            "P03": null,
+            "P04": -420.75,
+            "P05": null,
+            "P06": 168.0,
+            "P07": -1776.75
+          },
+          "n": 5,
+          "mean": -776.0,
+          "median": -691.0,
+          "sd": 737.0780784625194,
+          "ci95": [
+            -1691.2033138921215,
+            139.2033138921214
+          ],
+          "t": -2.3541451051688975,
+          "p": 0.07816072922292196,
+          "p_signflip": 0.125,
+          "dz": -1.0528056968112094,
+          "positive": 1,
+          "negative": 4,
+          "p_holm": 0.46896437533753177
+        },
+        "dual_gain_geo": {
+          "label": "东西判断：航向上 − 双地图",
+          "unit": "ms",
+          "points": {
+            "P01": 1126.5,
+            "P02": 887.0,
+            "P03": null,
+            "P04": 1383.0,
+            "P05": null,
+            "P06": -180.5,
+            "P07": 880.5
+          },
+          "n": 5,
+          "mean": 819.3,
+          "median": 887.0,
+          "sd": 595.8309953334083,
+          "ci95": [
+            79.47810408059058,
+            1559.1218959194093
+          ],
+          "t": 3.0747149918584586,
+          "p": 0.03712206814971319,
+          "p_signflip": 0.125,
+          "dz": 1.3750543466466452,
+          "positive": 4,
+          "negative": 1,
+          "p_holm": 0.2598544770479923
+        },
+        "dual_geo": {
+          "label": "东西判断：北向上 − 双地图",
+          "unit": "ms",
+          "points": {
+            "P01": -33.0,
+            "P02": 196.0,
+            "P03": 55.5,
+            "P04": 962.25,
+            "P05": -141.25,
+            "P06": -12.5,
+            "P07": -896.25
+          },
+          "n": 7,
+          "mean": 18.678571428571427,
+          "median": -12.5,
+          "sd": 546.1135358582673,
+          "ci95": [
+            -486.39221030887904,
+            523.7493531660219
+          ],
+          "t": 0.09049190617165387,
+          "p": 0.9308416545289386,
+          "p_signflip": 0.8125,
+          "dz": 0.034202725627769597,
+          "positive": 3,
+          "negative": 4,
+          "p_holm": 1.0
+        },
+        "interaction": {
+          "label": "地图朝向效应：左右任务 − 东西任务",
+          "unit": "ms",
+          "points": {
+            "P01": 1282.5,
+            "P02": 941.0,
+            "P03": null,
+            "P04": 616.75,
+            "P05": null,
+            "P06": -58.5,
+            "P07": -419.25
+          },
+          "n": 5,
+          "mean": 472.5,
+          "median": 616.75,
+          "sd": 702.4207028198983,
+          "ci95": [
+            -399.67049828445465,
+            1344.6704982844547
+          ],
+          "t": 1.5041443327725341,
+          "p": 0.20698401786313078,
+          "p_signflip": 0.25,
+          "dz": 0.6726737952100903,
+          "positive": 3,
+          "negative": 2,
+          "p_holm": 0.8279360714525231
+        }
+      },
+      "total": 840,
+      "timeouts": 5
+    }
+  }
+}
